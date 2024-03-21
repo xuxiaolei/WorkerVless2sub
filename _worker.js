@@ -231,7 +231,8 @@ export default {
 			مسیر باید شامل "/sub" باشد
 			
 			${url.origin}/sub?host=[your host]&uuid=[your uuid]&path=[your path]
-			
+			${url.origin}/sub?host=vless.itmax.cn&uuid=16a294cd-364c-4235-b87a-cba93745ba6f&path=/?ed=2048
+
 			
 			
 			
@@ -254,7 +255,8 @@ export default {
 			پارامترهای ضروری وارد نشده: هاست و یوآی‌دی
 			
 			${url.origin}/sub?host=[your host]&uuid=[your uuid]&path=[your path]
-			
+			${url.origin}/sub?host=vless.itmax.cn&uuid=16a294cd-364c-4235-b87a-cba93745ba6f&path=/?ed=2048
+
 			
 			
 			
