@@ -11,8 +11,8 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt' //可参考内容格式 自行搭建。
-	'https://addressesapi.090227.xyz/CloudFlareYes'
+	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt' //可参考内容格式 自行搭建。
+	//'https://addressesapi.090227.xyz/CloudFlareYes'
 ];
 
 let DLS = 4;//速度下限
@@ -193,8 +193,8 @@ export default {
 		let expire= Math.floor(timestamp / 1000) ;
 
 		if (mytoken !== '' && url.pathname.includes(mytoken)) {
-			host = env.HOST || "edgetunnel-2z2.pages.dev";
-			uuid = env.UUID || "30e9c5c8-ed28-4cd9-b008-dc67277f8b02";
+			host = env.HOST || "vless.itmax.cn";
+			uuid = env.UUID || "16a294cd-364c-4235-b87a-cba93745ba6f";
 			path = env.PATH || "/?ed=2048";
 			edgetunnel = env.ED || edgetunnel;
 			RproxyIP = env.RPROXYIP || RproxyIP;
