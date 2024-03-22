@@ -412,7 +412,7 @@ export default {
 						path = `/proxyIP=${randomProxyIP}`;
 					}
 				}
-				const origin = address.split('.');
+				const origin = host.split('.');
 				let 伪装域名 = host ;
 				let 最终路径 = path ;
 				let 节点备注 = `${EndPS}-${origin[0]}` ;
