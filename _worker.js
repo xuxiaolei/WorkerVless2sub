@@ -5,8 +5,8 @@ let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，不支持非TLS订阅生成
 let addresses = [
-	'icook.tw:2053#优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	'icook.tw:2053#域名优选',
+	'cloudflare.cfgo.cc#官方优选',
 ];
 
 // 设置优选地址api接口
@@ -412,10 +412,10 @@ export default {
 						path = `/proxyIP=${randomProxyIP}`;
 					}
 				}
-				
+				const origin = address.split('.');
 				let 伪装域名 = host ;
 				let 最终路径 = path ;
-				let 节点备注 = EndPS ;
+				let 节点备注 = `${EndPS}-${origin[0]}` ;
 				if(proxyhosts && (host.includes('workers.dev') || host.includes('pages.dev'))) {
 					最终路径 = `/${host}${path}`;
 					伪装域名 = proxyhosts[Math.floor(Math.random() * proxyhosts.length)];
