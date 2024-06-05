@@ -198,7 +198,7 @@ export default {
 		let expire= Math.floor(timestamp / 1000) ;
 
 		if (mytoken !== '' && url.pathname.includes(mytoken)) {
-			host = env.HOST || "vless.itmax.cn";
+			host = env.HOST || "vless.cat.cloudns.biz";
 			uuid = env.UUID || "16a294cd-364c-4235-b87a-cba93745ba6f";
 			path = env.PATH || "/?ed=2048";
 			edgetunnel = env.ED || edgetunnel;
