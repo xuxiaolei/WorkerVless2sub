@@ -12,7 +12,6 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
 	'https://addressesapi.090227.xyz/CloudFlareYes',
 	'https://ipdb.api.030101.xyz/?type=bestproxy&country=true',
 	'https://addressesapi.090227.xyz/ip.164746.xyz',
