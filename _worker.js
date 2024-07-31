@@ -907,8 +907,6 @@ async function getVLESSConfig(userID, hostName, sub, userAgent, RproxyIP) {
 		  host: ${hostName}
 	---------------------------------------------------------------
 	################################################################
-	telegram 交流群
-	https://t.me/CMLiussss
 	---------------------------------------------------------------
 	github 项目地址 Star!Star!Star!!!
 	https://github.com/cmliu/edgetunnel
